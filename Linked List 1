@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+class Node{
+public:
+char data;
+node* next;
+};
+int main (){
+Node* frist = new Node ();
+Node* Lab = new Node ();
+frist -> data = 'L';
+frist -> next = Lab;
+Lab -> data = 'L';
+return 0;
+};
