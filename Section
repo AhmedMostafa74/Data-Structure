@@ -7,7 +7,6 @@ void permute(string& str, int l, int r)
  
    
     if (l == r) {
-        if (str.find("AB") == string::npos)
             cout << str << " ";
         return;
     }
